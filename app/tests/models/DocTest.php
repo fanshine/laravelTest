@@ -6,7 +6,7 @@ class DocTest extends TestCase {
      */
     public function testRelationshipWithUser()
     {
-      // Instantiate(例示) new Doc
+      // Instantiate(示例) new Doc
       $doc = FactoryMuff::create('Doc');
 
       $this->assertEquals($doc->user_id, $doc->user->id);
